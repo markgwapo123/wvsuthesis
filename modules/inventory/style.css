@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #173a75;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.left-panel {
+  background-color: #173a75;
+  color: white;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.left-panel h2 {
+  font-size: 28px;
+  color: #59a6ff;
+}
+
+.left-panel p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.right-panel {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 300px;
+}
+
+.login-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.admin-label {
+  color: #2a6fc7;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  padding: 8px;
+}
+
+.input-group .icon {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.forgot-password a {
+  font-size: 12px;
+  color: #888;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: #2a6fc7;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #1c5db5;
+}
+
+.links, .create-account {
+  text-align: center;
+  font-size: 12px;
+}
+
+.links a, .create-account a {
+  text-decoration: none;
+  color: #2a6fc7;
+}
